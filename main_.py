@@ -207,6 +207,7 @@ def state_machine():
 
 def main():
     print("[Main] Starting state machine")
+    print("OTAUPGRADEDONEEEEEEEEEEEEEEEEEEE")
     _thread.start_new_thread(state_machine, ())  
     _thread.start_new_thread(state.data_fetch, ())  
     
